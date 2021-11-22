@@ -19,9 +19,11 @@ with open("Produk.json", "r") as read_file:
 with open("Member.json", "r") as read_file:
     Member = json.load(read_file)
 
+@app.get('/')
+def root():
+    return{'pesanan':'Item'}
 
-
-# @app.get("/produk", response_model=List[Produk])
+@app.get("/produk", response_model=List[Produk])
 @app.get("/produk")
 async def read_all_product():
     return Produk
