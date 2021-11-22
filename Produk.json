@@ -1,0 +1,13 @@
+{
+    "Produk": [
+        {
+            "id_produk": "123abc",
+            "nama_produk": "produk1",
+            "gambar_produk": "image.png",
+            "deskripsi": "Produk satu",
+            "stok_produk": 12 ,
+            "harga_produk": 5000 ,
+            "promosi": 5.0
+        }
+    ]
+}

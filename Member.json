@@ -1,0 +1,13 @@
+{
+    "Member": [
+        {
+            "username": "rayapsrb",
+            "name": "Panegak Raya Pasaribu",
+            "email": "raya.psrb@email.com",
+            "password": "password123",
+            "alamat": "Jalan Contoh IV No. 1" ,
+            "no_telp": "08123456789" ,
+            "status_log": "Telah Bayar"
+        }
+    ]
+}
